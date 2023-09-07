@@ -3,8 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: print a quote using a function
- *      write(int fd.const void *buf.size_t count);
+ * Description: printing a quote using char function
  *
  * Return: 1 (error).
 */

@@ -3,9 +3,9 @@
 /**
  * main - Entry point
  *
- * Description: A C program that prints with printf function.
+ * Description: A C program that prints a sentence using printf function
  *
- * Return: Always 0 (Success)
+ * Return: 0 (Success)
 */
 
 int main(void)
