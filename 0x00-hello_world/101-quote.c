@@ -1,9 +1,7 @@
 #include <unistd.h>
 
 /**
- * main - Entry point
- *
- * Description: printing a quote using char function
+ * main - printing a quote using char function
  *
  * Return: 1 (error).
 */
