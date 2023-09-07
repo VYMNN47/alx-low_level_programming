@@ -2,7 +2,7 @@
 /**
  * main - Entery point
  *
- * Description: A C program that prints a sentence 
+ * Description: A C program that prints a sentence
  *
  * Return: Always 0 (Success)
  *
