@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Description: A C program that prints a sentence using printf function
+ * main - A C program that prints a sentence using printf function
  *
  * Return: 0 (Success)
 */
