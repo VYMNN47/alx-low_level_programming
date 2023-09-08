@@ -1,11 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main - positive or negative in C
+ * main - Entry point
  *
- * Return : 0 (success)
+ * A C program that tells us if a variable is positive or negative
+ *
+ * Return: 0 (success)
 */
 
 int main(void)
