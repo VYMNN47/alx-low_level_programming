@@ -11,7 +11,7 @@ int main(void)
 {
 	int num = 48;
 
-	while (digit <= 102)
+	while (num <= 102)
 	{
 		putchar(num);
 
