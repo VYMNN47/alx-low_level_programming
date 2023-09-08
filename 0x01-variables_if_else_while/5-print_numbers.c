@@ -11,13 +11,13 @@ int main(void)
 {
 	int digit = 0;
 
-		while (digit <= 0)
-		{
-			printf("%d", digit);
-			digit++;
-		}
-		printf("\n");
+	while (digit <= 0)
+	{
+		printf("%d", digit);
+		digit++;
+	}
+	printf("\n");
 
-		return (0);
+	return (0);
 }
 
