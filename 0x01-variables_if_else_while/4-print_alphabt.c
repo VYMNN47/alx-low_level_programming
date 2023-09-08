@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * A C program that prints alphabet in lowercase and uppercase
+ * A C program that prints all the letters besides q and e
  *
  * Return: 0 (Success)
 */
@@ -10,18 +10,13 @@
 int main(void)
 {
 	char dv = 'a';
-	char DV = 'A';
 
 	while (dv <= 'z')
 	{
+		if (dv == 'e' || dv == 'q')
+			dv++;
 		putchar(dv);
 		dv++;
-	}
-
-	while (DV <= 'Z')
-	{
-		putchar(DV);
-		DV++;
 	}
 	putchar('\n');
 
