@@ -35,7 +35,7 @@ void print_times_table(int n)
 					_putchar((prob / 10) + 48);
 				_putchar((prob % 10) + 48);
 			}
-			_putchar('\n')
+			_putchar('\n');
 		}
 	}
 }
