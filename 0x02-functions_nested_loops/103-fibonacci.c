@@ -11,12 +11,12 @@
 int main(void)
 {
 	unsigned long fibo1 = 0, fibo2 = 1, sum;
-	float total_sum;
+	double total_sum;
 
 	while (1)
 	{
 		sum = fibo1 + fibo2;
-		
+
 		if (sum > 4000000)
 			break;
 
