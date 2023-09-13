@@ -11,7 +11,7 @@
 int main(void)
 {
 	unsigned long fibo1 = 0, fibo2 = 1, sum;
-	double total_sum;
+	float total_sum;
 
 	while (1)
 	{
