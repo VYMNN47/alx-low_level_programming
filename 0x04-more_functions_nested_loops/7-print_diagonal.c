@@ -12,15 +12,15 @@ void print_diagonal(int n)
 	int uni, sp;
 
 	if (n <= 0)
-		_putchar('\n');
+		putchar('\n');
 	else
 	{
 		for (uni = 1; uni <= n; uni++)
 		{
 			for (sp = 1; sp <= uni; sp++)
-				_putchar(' ');
-			_putchar(92);
-			_putchar('\n');
+				putchar(' ');
+			putchar(92);
+			putchar('\n');
 		}
 	}
 }
