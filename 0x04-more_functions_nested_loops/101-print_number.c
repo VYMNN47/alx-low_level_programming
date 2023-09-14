@@ -16,7 +16,7 @@ void print_number(int n)
 		digit = -digit;
 	}
 
-	if ((num / 10) > 0)
+	if ((digit / 10) > 0)
 		print_number(digit / 10);
 
 	_putchar((digit % 10) + 48);
