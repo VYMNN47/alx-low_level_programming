@@ -1,1 +1,1 @@
-First day in C
+More functions and nested loops
