@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- *  _print_most_nums - a function that prints the numbers,
- * from 0 to 9 but skips 2 and 4
+ * print_most_numbers - a function that prints the numbers,
+ * from 0 to 9 but skips 2 and 4 using _putchar twice
  *
  * Return: 0 (Success)
 */
 
-int _print_most_nums(void)
+int print_most_numbers(void)
 {
 	int digit;
 
