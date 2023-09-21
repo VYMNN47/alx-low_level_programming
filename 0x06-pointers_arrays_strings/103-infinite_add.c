@@ -4,7 +4,8 @@
  * infinite_add - adds two nums
  * @n1: first num
  * @n2: second num
- * @r: results: results lenght
+ * @size_r: results lenght
+ * @r: results
  * Return: sum
 */
 
@@ -21,7 +22,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	else
 		z = g;
 	if (z + 1 > size_r)
-		return(0);
+		return (0);
 	r[1] = '\0';
 	for (v = z - 1; v >= 0; v--)
 	{
