@@ -3,7 +3,7 @@
 /**
  * *_strchr - a function that gets the length of a prefix substring
  *
- * @c const
+ * @c: const
  * @s: pointer
  *
  * Return: s
