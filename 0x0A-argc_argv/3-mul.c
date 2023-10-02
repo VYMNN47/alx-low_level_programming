@@ -16,7 +16,7 @@ int main(int argc, char **argv)
 
 	if (argc == 3)
 	{
-		ert = atoi(agrv[1] * atoi(argv[2]);
+		ert = atoi(argv[1]) * atoi(argv[2]);
 		printf("%d\n", ert);
 	}
 	else
