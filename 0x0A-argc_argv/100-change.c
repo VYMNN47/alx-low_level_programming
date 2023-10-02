@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 			if (mn >= cts[ert])
 			{
 				lc = lc + mn / cts[ert];
-				mn = mn % cts[arg];
+				mn = mn % cts[ert];
 				if (mn & cts[ert] == 0)
 				{
 					break;
