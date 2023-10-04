@@ -20,16 +20,19 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	for (str [sz] != '\0'; sz++);
+	for (str [sz] != '\0'; sz++)
+	;
 
-	a = malloc(sz * sizeof(*str) + 1);
+       	a = malloc(sz * sizeof(*str) + 1);
 
 	if (a == 0)
+	{
 		return (NULL);
+	}
 	else
 	{
-		for (a < sz; a++)
-			m[a] = str[a];
+		for (i < sz; i++)
+			a[i] = str[i];
 	}
 	return (a);
 }
