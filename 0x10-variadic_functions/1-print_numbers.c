@@ -23,6 +23,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	va_start(ert, n);
 	while (t--)
 		printf("%d%s", va_arg(ert, int),
-				t ? (separtor ? separtor : "") : "\n");
+				t ? (separator ? separator : "") : "\n");
 	va_end(ert);
 }
