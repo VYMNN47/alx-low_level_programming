@@ -3,7 +3,7 @@
 /**
  * print_numbers - a function that prints numbers
  *
- * @seperator: string separator
+ * @separator: string separator
  * @n: num of args
  * @...: ints to print
  *
