@@ -12,11 +12,11 @@ int _strlen(char *s)
 {
 	int e = 0;
 
-        if (!s)
-                return (0);
-        while (*s++)
-                e++;
-        return (e);
+	if (!s)
+		return (0);
+	while (*s++)
+		e++;
+	return (e);
 }
 
 /**
